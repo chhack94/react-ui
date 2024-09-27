@@ -73,7 +73,7 @@ function Header({
                 data-testid="virto-logo"
                 sx={{
                   color: (theme: Theme) =>
-                    theme.palette.mode === "dark" ? "#003063" : "white",
+                    theme.palette.mode === "dark" ? "#5e8ab4" : "white",
                   height: 22,
                   mr: 0.4,
                   width: 110
@@ -88,7 +88,7 @@ function Header({
               textTransform="uppercase"
               fontWeight="700"
               color={theme =>
-                theme.palette.mode === "dark" ? "#003063" : "white"
+                theme.palette.mode === "dark" ? "#5e8ab4" : "white"
               }
             >
               {`.`}

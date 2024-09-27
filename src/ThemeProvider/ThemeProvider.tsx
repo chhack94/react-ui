@@ -126,7 +126,7 @@ const lightTheme = createTheme(
       background: {
         default: "rgb(250, 250, 250)"
       },
-      primary: { main: "#003063" },
+      primary: { main: "#5e8ab4" },
       secondary: { main: "#005FA8" }
     },
     typography: {
