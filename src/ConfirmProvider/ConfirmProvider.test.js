@@ -125,13 +125,13 @@ describe("ConfirmProvider", () => {
     // verify dialog confirmation button background color and color are correct in light mode
     const dialogConfirmationButton = getByText("Yes");
     expect(dialogConfirmationButton).toHaveStyle(
-      "background-color: rgb(0, 48, 99); color: rgb(255, 255, 255)"
+      "background-color: rgb(94, 138, 180); color: rgb(255, 255, 255)"
     );
 
     // verify dialog cancellation background color and color are correct in light mode
     const dialogCancellationButton = getByText("No");
     expect(dialogCancellationButton).toHaveStyle(
-      "background-color:transparent; color: rgb(0, 48, 99)"
+      "background-color:transparent; color: rgb(94, 138, 180)"
     );
   });
 });
